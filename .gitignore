@@ -1,0 +1,39 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore specific data directories
+Data/
+dataset/
+raw_data/
+catboost_info/
+
+# Ignore common large file types
+*.zip
+*.gz
+*.tar
+*.rar
+
+# Ignore common data file types
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-related files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-related files
+.env
+.venv
+env/
+venv/
+ENV/
